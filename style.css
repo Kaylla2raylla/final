@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.butt {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  color: white;
+  line-height: 300px;
+  text-decoration: none;
+  text-align: center;
+  background-size: 100% 100%;
+}
+
+.butt:hover, .butt:focus {
+  color: red;
+}
+
+.button1 {
+  background-image: url("kawaii.gif");
+}
+.button2 {
+  background-image: url("vaporwave.gif");
+  top: 0%;
+}
+.button3 {
+  background-image: url("pastelGoth.gif");
+}
+.button4 {
+  background-image: url("urban Skate.gif");
+}
+.button5 {
+  background-image: url("indieVintage.gif");
+}
+.button6 {
+  background-image: url("depression.gif");
+}
+.Box {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 990px) {
+  .butt {
+    height: 250px;
+    line-height: 250px;
+  }
+}
